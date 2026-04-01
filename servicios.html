@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Servicios - FISEI UTA</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      body {
+        padding-top: 70px;
+      }
+
+      .service-card {
+        transition: transform 0.3s ease;
+      }
+
+      .service-card:hover {
+        transform: scale(1.05);
+      }
+
+      .service-img {
+        height: 200px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">FISEI-UTA</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="servicios.html">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACTOS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <div class="container text-center mb-5">
+      <h1 class="display-4">Nuestros Servicios Académicos</h1>
+      <p class="lead">
+        Recursos y áreas de formación dentro de la carrera de Ingeniería de Software
+      </p>
+    </div>
+
+    <!-- SERVICIOS -->
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- REDES -->
+        <div class="col-md-4">
+          <div class="card service-card shadow">
+            <img src="assets/imagenes/redes.jpg" class="card-img-top service-img" alt="Redes">
+            <div class="card-body">
+              <h5 class="card-title">Redes</h5>
+              <p class="card-text">
+                Configuración de redes, VLANs, protocolos como OSPF, seguridad en switches
+                y prácticas en Cisco Packet Tracer.
+              </p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- BASE DE DATOS -->
+        <div class="col-md-4">
+          <div class="card service-card shadow">
+            <img src="assets/imagenes/basededatos.jpg" class="card-img-top service-img" alt="Base de Datos">
+            <div class="card-body">
+              <h5 class="card-title">Base de Datos</h5>
+              <p class="card-text">
+                Diseño de modelos relacionales, SQL avanzado, subconsultas, joins,
+                y administración de bases de datos.
+              </p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- MANEJO Y CONFIGURACIÓN -->
+        <div class="col-md-4">
+          <div class="card service-card shadow">
+            <img src="assets/imagenes/manejo.jpg" class="card-img-top service-img" alt="Configuración">
+            <div class="card-body">
+              <h5 class="card-title">Manejo y Configuración</h5>
+              <p class="card-text">
+                Administración de sistemas, configuración de entornos,
+                herramientas de desarrollo y buenas prácticas.
+              </p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- SECCIÓN EXTRA -->
+    <div class="container mt-5">
+      <hr>
+      <h2 class="text-center">¿Qué ofrecemos?</h2>
+      <p class="text-center">
+        Formación integral en áreas clave de la ingeniería de software,
+        combinando teoría, práctica y herramientas modernas.
+      </p>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="container mt-5 text-center">
+      <hr>
+      <p>&copy; 2026 FISEI - UTA</p>
+      <a href="index.html">Volver al inicio</a>
+    </footer>
+
+    <!-- JS -->
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
