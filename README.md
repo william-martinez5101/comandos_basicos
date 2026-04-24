@@ -7,3 +7,6 @@ COMANDOS BASICOS
 6)git pull origin main
 
 #COMANDOS BASICOS DE GIT
+##Pagina web de la FISEI
+###git brancht+
+###git merge
