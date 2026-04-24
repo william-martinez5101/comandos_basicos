@@ -5,3 +5,5 @@ COMANDOS BASICOS
 4) git remote -v
 5) git push -u origin main
 6)git pull origin main
+
+#COMANDOS BASICOS DE GIT
